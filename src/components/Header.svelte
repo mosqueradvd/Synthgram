@@ -65,17 +65,17 @@
     <div class="Header-content">
       <div class="Header-logo">
         <h1>Synthgram</h1>
-        <div class="Header-nav">
-          <ul>
-            <li>
-              <i class="fas fa-bolt" />
-              {$likeCount === 0 ? '' : $likeCount}
-            </li>
-            <li>
-              <i class="fas fa-user-alt" />
-            </li>
-          </ul>
-        </div>
+      </div>
+      <div class="Header-nav">
+        <ul>
+          <li>
+            <i class="fas fa-bolt" />
+            {$likeCount === 0 ? '' : $likeCount}
+          </li>
+          <li>
+            <i class="fas fa-user-alt" />
+          </li>
+        </ul>
       </div>
     </div>
   </div>

@@ -42,7 +42,7 @@
     font-weight: normal;
     color: black;
   }
-  .Stories-item {
+  .Stories-items {
     margin: 0.5em 0 0.5em 0;
   }
   .Stories-item-box {
@@ -64,14 +64,16 @@
       <span>See all</span>
     </div>
     <div class="Stories-item">
-      <div class="Stories-item">
+      <div class="Stories-items">
         <div class="Stories-item-box">
           <img
             src="https://static.platzi.com/media/avatars/avatars/mosqueradvd_645d120b-c4c9-4597-8234-fbc62d5c1096.png"
-            alt="User profile pic" />
+            alt="" />
         </div>
-        <h2>mosqueradvd</h2>
-        <span>10 hours ago</span>
+        <h2>
+          mosqueradvd
+          <span>10 hrs ago</span>
+        </h2>
       </div>
     </div>
   </div>
